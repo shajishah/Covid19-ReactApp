@@ -32,9 +32,6 @@ jobs:
       with:
         cmd: install # will run `yarn install` command
 
-   - name: Sass Build
-  uses: gha-utilities/sass-build@v0.2.5
-
     
    #  Make destination directory for compiled CSS
     - name: Make destination directory for compiled CSS
