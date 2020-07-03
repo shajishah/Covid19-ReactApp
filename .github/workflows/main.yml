@@ -32,7 +32,11 @@ jobs:
       with:
         cmd: install # will run `yarn install` command
         
-    # Build React App with Yarn
+    # node sass
+    - name: node sass
+      run: npm rebuild node-sass  
+      
+      # Build React App with Yarn
     - name: Build React App
       run: yarn build  
       
