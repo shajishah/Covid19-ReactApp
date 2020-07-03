@@ -32,6 +32,10 @@ jobs:
       with:
         cmd: install # will run `yarn install` command
         
+    # Node Sass
+    name: Node Sass
+    run: yarn add --force node-sass  
+    
     # Build React App with Yarn
     - name: Build React App
       run: yarn build  
